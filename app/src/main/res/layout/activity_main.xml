@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context="com.example.ekasilabalexcdtb.miwok.MainActivity">
+
+
+    <TextView
+        android:id="@+id/tvNumbers"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="true"
+        android:textColor="@android:color/black"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="?android:attr/selectableItemBackground"
+        android:text="Numbers"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/tvPhrases"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/tvNumbers"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@android:color/holo_blue_bright"
+
+        android:text="Phrases"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/tvFamilyMembers"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/tvPhrases"
+        android:background="@android:color/holo_green_dark"
+
+        android:text="Family Members"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/tvColors"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/tvFamilyMembers"
+        android:background="@android:color/holo_purple"
+
+        android:text="Colors"
+        android:textSize="24sp" />
+</RelativeLayout>
+
